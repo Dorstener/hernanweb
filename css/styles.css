@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+
+.navbarTwo {
+    border: 2px solid red;
+    height:50px;
+    width:80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    display:flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+section {
+    width: 50%;
+    height: 500px;
+    border: 2px solid red;
+}
+
+/*BIOGRAFIA*/
+
+.bio { 
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid blue;
+}
+
+/*SETLISTS*/
+
+.containerOne {
+    border: 2px solid blue;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.musicStyles {
+    width: 20%;
+    height:250px;
+    border: 2px solid red;
+}
+
+/* SETLISTS > CEREMONY / COCKTAIL / INSTRUMENTAL / LATIN-SPANISH*/
+
+.containerThree {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+}
+
+.containerFour {
+    border: 2px solid blue;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.containerFive {
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbarOne {
+    border: 2px solid blue;
+    height:50px;
+    width: 40%;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+/* COVERS */
+
+.containerDos {
+    border: 2px solid blue;
+    display: flex;
+    margin: auto;
+    width: 40%;
+    height: 500px;
+    justify-content: space-evenly;
+}
+
+/* FOOTER */
+
+.navbarThree {
+    border: 2px solid red;
+    height:50px;
+    width:80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
