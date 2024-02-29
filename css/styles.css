@@ -1,13 +1,46 @@
+/*GENERALES */
+
 * {
     margin: 0;
 }
+
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gayathri-thin {
+    font-family: "Gayathri", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .gayathri-regular {
+    font-family: "Gayathri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gayathri-bold {
+    font-family: "Gayathri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cagliostro-regular {
+    font-family: "Cagliostro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 /*HEADER*/
 
 nav {
     height: 50px;
     width: 100%;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(1,1,1,1);
     padding: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1)
 }
@@ -20,11 +53,13 @@ nav {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    font-family: "Fjalla One";
 }
 
 li > a {
     text-decoration: none;
     margin-right: 20px;
+    color: rgba(253,160,0,1);  
 }
 
 li.linkOne {
@@ -32,9 +67,8 @@ li.linkOne {
 }
 
 .linkOne:hover {
-    text-decoration: underline;
-    text-decoration-color: orange;
-    border-bottom: 2px solid orange;
+    text-decoration-color: rgba(253,160,0,1);
+    border-bottom: 3px solid rgba(253,160,0,1);
     padding-bottom: 6px;
 }
 
@@ -48,6 +82,27 @@ section {
     width: 50%;
     height: 500px;
     border: 2px solid red;
+}
+
+/*HOME*/
+
+.fontOne {
+    font-family: "Gayathri", sans-serif;
+    font-size: 50px;
+    color: rgba(253,160,0,1);
+}
+
+.fontTwo {
+    font-family: "Cagliostro";
+    color: rgba(253,160,0,1);
+}
+
+.containerSix {
+    text-align: center;
+}
+
+.containerSeven {
+    background-color: rgba(1,1,1,1);
 }
 
 /*BIOGRAFIA*/
