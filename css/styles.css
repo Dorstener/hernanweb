@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+/*HEADER*/
+
 nav {
     height: 50px;
     width: 100%;
@@ -23,6 +25,17 @@ nav {
 li > a {
     text-decoration: none;
     margin-right: 20px;
+}
+
+li.linkOne {
+    text-align: center;
+}
+
+.linkOne:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    border-bottom: 2px solid orange;
+    padding-bottom: 6px;
 }
 
 main {
