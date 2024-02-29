@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+body {
+    background-color: rgba(1,1,1,1);
+}
 .fjalla-one-regular {
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
@@ -58,7 +61,8 @@ nav {
 
 li > a {
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     color: rgba(253,160,0,1);  
 }
 
