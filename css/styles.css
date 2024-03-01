@@ -106,15 +106,20 @@ section {
     text-align: left;
     width: 50%;
     padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .containerSeven {
     background-color: rgba(1,1,1,1);
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .containerEight {
     width: 50%;
+    ;
 
 }
 
@@ -122,6 +127,8 @@ section {
     border-radius: 20px;
     width: 450px;
     height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*BIOGRAFIA*/
