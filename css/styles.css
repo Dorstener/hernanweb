@@ -215,6 +215,22 @@ section {
     justify-content: space-evenly;
 }
 
+/* ORIGINAL */
+
+.containerNine {
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerTen {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
 /* FOOTER */
 
 .navbarThree {
