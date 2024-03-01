@@ -36,7 +36,10 @@ body {
     font-weight: 400;
     font-style: normal;
   }
-  
+
+hr {
+    border: 2px solid rgba(253,160,0,1);
+}
 
 /*HEADER*/
 
@@ -49,7 +52,6 @@ nav {
 }
 
 .navbarTwo {
-    border: 2px solid red;
     height:50px;
     width:80%;
     display: flex;
@@ -84,8 +86,7 @@ main {
 
 section {
     width: 50%;
-    height: 500px;
-    border: 2px solid red;
+    height: 400px;
 }
 
 /*HOME*/
@@ -102,11 +103,25 @@ section {
 }
 
 .containerSix {
-    text-align: center;
+    text-align: left;
+    width: 50%;
+    padding-right: 40px;
 }
 
 .containerSeven {
     background-color: rgba(1,1,1,1);
+    margin-top: 20px;
+}
+
+.containerEight {
+    width: 50%;
+
+}
+
+.imageOne { 
+    border-radius: 20px;
+    width: 450px;
+    height: 350px;
 }
 
 /*BIOGRAFIA*/
@@ -187,7 +202,6 @@ section {
 /* FOOTER */
 
 .navbarThree {
-    border: 2px solid red;
     height:50px;
     width:80%;
     display: flex;
