@@ -233,11 +233,47 @@ section {
 
 /* FOOTER */
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
 .navbarThree {
     height:50px;
-    width:80%;
+    width:45%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+}
+
+.containerEleven {
+    height: 50px;
+    width:100%;
+    text-align: center;
+}
+
+.containerTwelve {
+    display:  flex;
+    flex-direction: row;
+}
+
+.navbarFour {
+    height:50px;
+    width:45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.fontThree {
+    font-family: "Cagliostro";
+    color: rgba(253,160,0,1);
+    font-size: 0.8em;
+   
+}
+
+div > a {
+    text-decoration: none;
 }
