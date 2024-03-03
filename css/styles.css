@@ -277,3 +277,20 @@ footer {
 div > a {
     text-decoration: none;
 }
+
+/*PRIVACY POLICY */
+
+.containerThirdteen {
+    margin: 20px 100px;
+}
+
+.fontFour {
+    color: #FF0080; 
+    text-decoration: none;
+}
+
+.fontFive {
+    font-size: 1.5em;
+    text-align: center;
+
+}
