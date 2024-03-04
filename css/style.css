@@ -1,0 +1,276 @@
+/* VARIABLES */
+/* PARTIALS */
+.containerOne {
+  border: 2px solid red;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.containerDos {
+  border: 2px solid red;
+  display: flex;
+  margin: auto;
+  width: 40%;
+  height: 500px;
+  justify-content: space-evenly;
+}
+
+.containerThree {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  align-items: center;
+}
+
+.containerFour {
+  border: 2px solid red;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.containerFive {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.containerSix {
+  text-align: left;
+  width: 50%;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerSeven {
+  background-color: rgb(1, 1, 1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.containerEight {
+  width: 50%;
+}
+
+.containerNine {
+  height: 500px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerTen {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.containerEleven {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.containerTwelve {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerThirdteen {
+  margin: 20px 100px;
+}
+
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gayathri-thin {
+  font-family: "Gayathri", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.gayathri-regular {
+  font-family: "Gayathri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gayathri-bold {
+  font-family: "Gayathri", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cagliostro-regular {
+  font-family: "Cagliostro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fontOne {
+  font-family: "Gayathri", sans-serif;
+  font-size: 50px;
+  color: rgb(253, 160, 0);
+}
+
+.fontTwo {
+  font-family: "Cagliostro";
+  color: rgb(253, 160, 0);
+}
+
+.fontThree {
+  font-family: "Cagliostro";
+  color: rgb(253, 160, 0);
+  font-size: 0.8em;
+}
+
+.fontFour {
+  color: #FF0080;
+  text-decoration: none;
+}
+
+.fontFive {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.imageOne {
+  border-radius: 20px;
+  width: 450px;
+  height: 370px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imageTwo {
+  border-radius: 20px;
+  width: 450px;
+  height: 350px;
+  float: right;
+  margin: 20px 20px;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(1, 1, 1);
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbarOne {
+  border: 2px solid red;
+  height: 50px;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.navbarTwo {
+  height: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  font-family: "Fjalla One";
+}
+
+.navbarThree {
+  height: 50px;
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.navbarFour {
+  height: 50px;
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(1, 1, 1);
+}
+
+hr {
+  border: 2px solid rgb(253, 160, 0);
+}
+
+li > a {
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(253, 160, 0);
+}
+
+li.linkOne {
+  text-align: center;
+}
+
+.linkOne:hover {
+  text-decoration-color: rgb(253, 160, 0);
+  border-bottom: 3px solid rgb(253, 160, 0);
+  padding-bottom: 6px;
+}
+
+main {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+section {
+  width: 50%;
+  height: 400px;
+}
+
+.bio {
+  width: 100%;
+  height: 750px;
+  margin: auto;
+  margin: 40px 40px;
+  word-spacing: 5px;
+}
+
+.musicStyles {
+  width: 20%;
+  height: 250px;
+  border: 2px solid red;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+div > a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
