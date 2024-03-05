@@ -10,19 +10,24 @@ hr {
 }
 
 li > a {
-    text-decoration: none;
     margin-right: 10px;
     margin-left: 10px;
-    color: rgba(253,160,0,1);  
+    color: rgba(253,160,0,1); 
+    text-decoration-color: transparent;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 6px;
 }
 
-li.linkOne {
+.linkOne {
     text-align: center;
+    border-bottom: 3px solid  transparent;
+    padding-bottom: 6px;
 }
 
 .linkOne:hover {
     text-decoration-color: rgba(253,160,0,1);
-    border-bottom: 3px solid rgba(253,160,0,1);
+    border-bottom: 3px solid  rgba(253,160,0,1);
+    color: rgba(253,160,0,1);
     padding-bottom: 6px;
 }
 

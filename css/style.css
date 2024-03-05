@@ -223,19 +223,24 @@ hr {
 }
 
 li > a {
-  text-decoration: none;
   margin-right: 10px;
   margin-left: 10px;
   color: rgb(253, 160, 0);
+  text-decoration-color: transparent;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 6px;
 }
 
-li.linkOne {
+.linkOne {
   text-align: center;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 6px;
 }
 
 .linkOne:hover {
   text-decoration-color: rgb(253, 160, 0);
   border-bottom: 3px solid rgb(253, 160, 0);
+  color: rgb(253, 160, 0);
   padding-bottom: 6px;
 }
 
