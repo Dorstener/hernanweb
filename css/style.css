@@ -64,16 +64,16 @@
 }
 
 .containerNine {
-  height: 500px;
+  height: 350px;
   margin: 20px;
   display: flex;
-  justify-content: center;
 }
 
 .containerTen {
   width: 50%;
+  height: 300px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .containerEleven {
@@ -89,6 +89,10 @@
 
 .containerThirdteen {
   margin: 20px 100px;
+}
+
+.containerFourteen {
+  align-self: center;
 }
 
 /*FONT TYPES */
