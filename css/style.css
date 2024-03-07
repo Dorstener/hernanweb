@@ -177,14 +177,6 @@
   font-weight: 500;
 }
 
-.fontTwo {
-  font-family: "Roboto Slab", serif;
-  color: rgba(253, 160, 0, 0.6);
-  font-size: 1em;
-  font-weight: 400;
-  line-height: 1.8;
-}
-
 .fontTestOne {
   font-family: "Roboto Slab", serif;
   color: rgb(253, 160, 0);
