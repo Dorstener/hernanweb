@@ -142,6 +142,12 @@
   word-spacing: 5px;
 }
 
+.containerTwentyOne {
+  width: 20%;
+  height: 250px;
+  border: 2px solid red;
+}
+
 /*FONT TYPES */
 .fjalla-one-regular {
   font-family: "Fjalla One", sans-serif;
@@ -328,6 +334,11 @@
   margin: 20px 20px;
 }
 
+.imageThree {
+  width: 100%;
+  height: 250px;
+}
+
 nav {
   height: 50px;
   width: 100%;
@@ -417,12 +428,6 @@ main {
 section {
   width: 50%;
   height: 400px;
-}
-
-.musicStyles {
-  width: 20%;
-  height: 250px;
-  border: 2px solid red;
 }
 
 footer {
