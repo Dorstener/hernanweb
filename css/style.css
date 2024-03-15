@@ -124,6 +124,24 @@
   align-items: center;
 }
 
+.containerNineteen {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  width: 100%;
+  height: 800px;
+  align-items: center;
+}
+
+.containerTwenty {
+  width: 100%;
+  height: 1200px;
+  margin: auto;
+  margin: 40px 40px;
+  word-spacing: 5px;
+}
+
 /*FONT TYPES */
 .fjalla-one-regular {
   font-family: "Fjalla One", sans-serif;
@@ -399,14 +417,6 @@ main {
 section {
   width: 50%;
   height: 400px;
-}
-
-.bio {
-  width: 100%;
-  height: 1075px;
-  margin: auto;
-  margin: 40px 40px;
-  word-spacing: 5px;
 }
 
 .musicStyles {
