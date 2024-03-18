@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 20px;;
+    margin-top: 20px;
     width: 100%;
     height: 1400px;
     align-items: center;
@@ -144,4 +144,34 @@
     width: 20%;
     height:250px;
     border: 2px solid red;
+}
+
+.containerTwentyTwo {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px;
+    height: 700px;
+    align-items: center;
+}
+
+.containerTwentyThree {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerTwentyFour {
+    height: 500px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerTwentyFive {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: start;
 }

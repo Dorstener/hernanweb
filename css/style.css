@@ -148,6 +148,36 @@
   border: 2px solid red;
 }
 
+.containerTwentyTwo {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 40px;
+  height: 700px;
+  align-items: center;
+}
+
+.containerTwentyThree {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerTwentyFour {
+  height: 500px;
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.containerTwentyFive {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  justify-content: start;
+}
+
 /*FONT TYPES */
 .fjalla-one-regular {
   font-family: "Fjalla One", sans-serif;
@@ -335,8 +365,13 @@
 }
 
 .imageThree {
-  width: 100%;
+  width: 500px;
   height: 250px;
+}
+
+.imageFour {
+  width: 100%;
+  height: 450px;
 }
 
 nav {
