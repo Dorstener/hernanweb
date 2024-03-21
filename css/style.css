@@ -1,7 +1,6 @@
 /* VARIABLES */
 /* PARTIALS */
 .containerOne {
-  border: 2px solid red;
   display: flex;
   width: 100%;
   height: 500px;
@@ -146,7 +145,6 @@
 .containerTwentyOne {
   width: 20%;
   height: 250px;
-  border: 2px solid red;
 }
 
 .containerTwentyTwo {
@@ -181,6 +179,12 @@
 
 .containerTwentySix {
   text-align: center;
+  margin-top: 5px;
+}
+
+.containerTwentySeven {
+  display: flex;
+  justify-content: center;
 }
 
 /*FONT TYPES */
@@ -405,6 +409,11 @@
   height: 450px;
 }
 
+.imageFive {
+  width: 40%;
+  margin: 40px 0px;
+}
+
 nav {
   height: 50px;
   width: 100%;
@@ -446,7 +455,6 @@ nav {
 .navbarFour {
   height: 50px;
   width: 45%;
-  margin-top: 40px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -457,7 +465,7 @@ nav {
 .navbarFive {
   height: 50px;
   width: 95%;
-  margin-top: 40px;
+  margin: 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
