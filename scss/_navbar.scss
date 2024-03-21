@@ -37,12 +37,25 @@ nav {
 }
 
 
-
+/* UTILIZADO EN: footer.html / */
 .navbarFour {
     height:50px;
     width:45%;
+    margin-top: 40px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+/* UTILIZADO EN: contacto.html / */
+
+.navbarFive {
+    height:50px;
+    width:95%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     list-style: none;
 }
