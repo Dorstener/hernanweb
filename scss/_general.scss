@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -31,11 +32,6 @@ li > a {
     padding-bottom: 6px;
 }
 
-main {
-    display:flex;
-    margin-left: 100px;
-    margin-right: 100px;
-}
 
 section {
     width: 50%;

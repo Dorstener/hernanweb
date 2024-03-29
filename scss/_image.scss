@@ -1,9 +1,14 @@
+
+/* USED IN: Index.html */
 .imageOne { 
     border-radius: 20px;
-    width: 650px;
-    height: 470px;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    max-height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 100px;
 }
 
 .imageTwo { 

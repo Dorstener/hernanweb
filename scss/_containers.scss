@@ -40,25 +40,33 @@
     margin-right: 100px;
 }
 
-
+/* Used in: Index.html; */
 .containerSix {
     text-align: left;
     width: 50%;
-    padding-right: 40px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+/* Used in: Index.html; */
 .containerSeven {
+    display: flex;
     background-color: rgba(1,1,1,1);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: 60px; 
     height: 500px;
+    gap: 80px;
+    align-content: center;
 }
 
+/* Used in: Index.html; */
 .containerEight {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
+    height: auto;
 }
 
 .containerNine {

@@ -42,24 +42,33 @@
   margin-right: 100px;
 }
 
+/* Used in: Index.html; */
 .containerSix {
   text-align: left;
   width: 50%;
-  padding-right: 40px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+/* Used in: Index.html; */
 .containerSeven {
+  display: flex;
   background-color: rgb(1, 1, 1);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 60px;
   height: 500px;
+  gap: 80px;
+  align-content: center;
 }
 
+/* Used in: Index.html; */
 .containerEight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
+  height: auto;
 }
 
 .containerNine {
@@ -383,12 +392,16 @@
   font-size: 1.2em;
   font-weight: 500;
 }*/
+/* USED IN: Index.html */
 .imageOne {
   border-radius: 20px;
-  width: 650px;
-  height: 470px;
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  max-height: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 100px;
 }
 
 .imageTwo {
@@ -474,6 +487,7 @@ nav {
 
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -506,12 +520,6 @@ li > a {
   padding-bottom: 6px;
 }
 
-main {
-  display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 section {
   width: 50%;
   height: 400px;
@@ -525,5 +533,7 @@ footer {
 div > a {
   text-decoration: none;
 }
+
+/* MEDIA QUERY FOR SCREENS WITH A MAXIMUM WIDTH OF 1080PX */
 
 /*# sourceMappingURL=style.css.map */
