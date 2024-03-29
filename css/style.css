@@ -236,7 +236,7 @@
 
 .fontOne {
   font-family: "Roboto Slab", serif;
-  font-size: 50px;
+  font-size: 3em;
   color: rgb(253, 160, 0);
 }
 
@@ -534,6 +534,42 @@ div > a {
   text-decoration: none;
 }
 
-/* MEDIA QUERY FOR SCREENS WITH A MAXIMUM WIDTH OF 1080PX */
+/* MEDIA QUERY FOR SCREENS ON TABLETS. MAXIMUM OF 1080 px and MINIMUM OF 768PX */
+@media (max-width: 1080px) {
+  /*USED IN INDEX.html*/
+  .containerSeven {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0px;
+  }
+  .containerSix {
+    order: 2;
+    width: 60%;
+    margin-bottom: 40px;
+  }
+  .containerEight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    width: 100%;
+  }
+  .containerTwentyEight {
+    width: 100%;
+  }
+  .imageOne {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 550px;
+    max-height: 325px;
+  }
+}
+/* MEDIA QUERY FOR SCREENS ON BIG MOBILES. MAXIMUM OF 767 px and MINIMUM OF 550PX */
+/* MEDIA QUERY FOR SCREENS ON SMALL MOBILEs. MAXIMUM OF 549 px and MINIMUM OF 350PX */
 
 /*# sourceMappingURL=style.css.map */
