@@ -570,6 +570,34 @@ div > a {
   }
 }
 /* MEDIA QUERY FOR SCREENS ON BIG MOBILES. MAXIMUM OF 767 px and MINIMUM OF 550PX */
+@media (max-width: 767px) and (min-width: 550px) {
+  /*USED IN INDEX.HTML */
+  .fontOne {
+    font-size: 2em;
+  }
+  .imageOne {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 450px;
+    max-height: 275px;
+  }
+}
 /* MEDIA QUERY FOR SCREENS ON SMALL MOBILEs. MAXIMUM OF 549 px and MINIMUM OF 350PX */
+@media (min-width: 350px) and (max-width: 549px) {
+  /*USED IN INDEX.HTML */
+  .fontOne {
+    font-size: 1.8em;
+  }
+  .imageOne {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 325px;
+    max-height: 200px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
