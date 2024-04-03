@@ -1,6 +1,6 @@
-/* MEDIA QUERY FOR SCREENS ON TABLETS. MAXIMUM OF 1080 px and MINIMUM OF 768PX */
+/* >>>>> MEDIA QUERY FOR SCREENS ON TABLETS. MAXIMUM OF 1080 px and MINIMUM OF 768PX */
 
-@media (max-width: 1080px) {
+@media (max-width: 1080px) and (min-width:768px) {
 
 /*USED IN INDEX.html*/
     .containerSeven {
@@ -38,9 +38,21 @@
         max-width: 550px;
         max-height: 325px;
     }
+
+/* USED IN BIO.HTML */
+
+    .imageTwo { 
+        border-radius: 20px;
+        max-width: 400px;
+        width: 400px;
+        max-height: 575px;
+        height: 575px;
+        float:right;
+        margin: 20px 20px;
+    }
 }
 
-/* MEDIA QUERY FOR SCREENS ON BIG MOBILES. MAXIMUM OF 767 px and MINIMUM OF 550PX */
+/* >>>>> MEDIA QUERY FOR SCREENS ON BIG MOBILES. MAXIMUM OF 767 px and MINIMUM OF 550PX */
 
 @media (max-width: 767px) and (min-width: 550px) {
 
@@ -59,11 +71,23 @@
     max-height: 275px;
 }
 
+/* USED IN BIO.HTML */
+
+    .imageTwo { 
+        border-radius: 20px;
+        max-width: 330px;
+        width: 330px;
+        max-height: 505px;
+        height: 505px;
+        float:right;
+        margin: 20px 20px;
+    }
+
 }
 
-/* MEDIA QUERY FOR SCREENS ON SMALL MOBILEs. MAXIMUM OF 549 px and MINIMUM OF 350PX */
+/* >>>>> MEDIA QUERY FOR SCREENS ON SMALL MOBILEs. MAXIMUM OF 549 px and MINIMUM OF 350PX */
 
-@media (min-width: 350px) and (max-width: 549px) {
+@media (max-width: 549px) {
 
 /*USED IN INDEX.HTML */
 
@@ -78,6 +102,12 @@
     margin-left: 0px;
     max-width: 325px;
     max-height: 200px;
+}
+
+/* USED IN BIO.HTML */
+
+.imageTwo { 
+    display: none;
 }
 
 }
