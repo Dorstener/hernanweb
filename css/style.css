@@ -573,7 +573,7 @@ div > a {
     width: 100%;
   }
   .containerTwentyEight {
-    width: 100%;
+    margin: 20px 40px;
   }
   .imageOne {
     margin-top: 40px;
@@ -618,7 +618,7 @@ div > a {
     width: 100%;
   }
   .containerTwentyEight {
-    width: 100%;
+    margin: 20px 40px;
   }
   .fontOne {
     font-size: 2em;
@@ -666,7 +666,7 @@ div > a {
     width: 100%;
   }
   .containerTwentyEight {
-    width: 100%;
+    margin: 20px 40px;
   }
   .fontOne {
     font-size: 1.8em;
