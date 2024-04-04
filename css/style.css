@@ -29,11 +29,11 @@
   align-items: center;
 }
 
+/* USED IN: original.html; */
 .containerFour {
   display: flex;
-  height: 150px;
-  margin-top: 20px;
-  width: 100%;
+  height: auto;
+  margin: 20px 20px;
   justify-content: space-evenly;
 }
 
@@ -44,7 +44,7 @@
   margin-right: 100px;
 }
 
-/* Used in: Index.html; */
+/* USED IN: Index.html; */
 .containerSix {
   text-align: left;
   width: 50%;
@@ -73,11 +73,18 @@
   height: auto;
 }
 
+/* USED IN: original.html; */
 .containerNine {
-  height: 350px;
+  height: auto;
   margin: 20px;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* USED IN: original.html; */
+.containerTen {
+  margin: 10px 25px;
 }
 
 .containerEleven {
@@ -86,7 +93,7 @@
   text-align: center;
 }
 
-/* Used in: Index.html; bio.html */
+/* USED IN: Index.html; bio.html */
 .containerTwelve {
   display: flex;
   flex-direction: row;
@@ -96,10 +103,10 @@
   margin: 20px 100px;
 }
 
+/* USED IN: original.html; */
 .containerFourteen {
-  align-self: center;
-  margin-top: 10px;
-  margin-right: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .containerFifthteen {
@@ -286,6 +293,7 @@
   font-weight: 500;
 }
 
+/* USED IN: original.html; */
 .fontSeven {
   font-family: "Roboto Slab", serif;
   color: rgb(253, 160, 0);
@@ -300,7 +308,7 @@
   font-weight: 500;
 }
 
-/*USED IN: bio.html; */
+/*USED IN: bio.html; original.html; */
 .fontNine {
   font-family: "Roboto Slab", serif;
   color: rgba(232, 228, 220, 0.9);
@@ -317,6 +325,7 @@
   line-height: 1.8;
 }
 
+/* USED IN: original.html; */
 .fontEleven {
   font-family: "Roboto Slab", serif;
   color: rgb(232, 228, 220);
