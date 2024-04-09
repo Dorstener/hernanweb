@@ -4,7 +4,7 @@
   display: flex;
   width: 100%;
   height: 500px;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   gap: 20px;
 }
@@ -18,7 +18,7 @@
   justify-content: space-evenly;
 }
 
-/* UTILIZADO EN: index.html; bio.html */
+/* USED IN: index.html; bio.html */
 .containerThree {
   display: flex;
   flex-direction: column;
@@ -161,7 +161,7 @@
   word-spacing: 5px;
 }
 
-/*Used in: Setlists.html; */
+/*USED IN: Setlists.html;*/
 .containerTwentyOne {
   width: 400px;
   /* I am doing this in pixels and not in % as it would then affect the flex-wrap: wrap function on the mediaqueries. I need an absolute value here. Else, I would have had to create clases for each one of the boxes*/
@@ -212,6 +212,12 @@
 /* Used in: bio.html; */
 .containerTwentyEight {
   margin: 20px 40px;
+}
+
+/*USED IN: discografia.html; */
+.containerTwentyNine {
+  width: auto;
+  height: 250px;
 }
 
 /*FONT TYPES */
