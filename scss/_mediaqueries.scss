@@ -176,17 +176,47 @@
 }
 
 /* USED IN BIO.HTML */
-
 .imageTwo { 
     display: none;
 }
 
 /* USED IN SETLIST.HTML"*/
-
 .containerOne {
     flex-wrap: wrap;
     margin: 60px 0px;
     height: auto;
+}
+
+/* USED IN <footer> */
+.containerTwentySeven {
+    display: none;
+}
+
+/* USED IN <footer> */
+
+
+.containerThirty {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 150px;
+    margin: auto;
+}
+
+/* USED IN <footer> */
+.navbarFour {
+    width: auto;
+    display: flex;
+    order: 2;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbarThree {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 }
