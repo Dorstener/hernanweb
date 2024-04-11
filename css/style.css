@@ -473,7 +473,7 @@
 }
 
 nav {
-  height: 50px;
+  height: 65px;
   width: 100%;
   background-color: rgb(1, 1, 1);
   padding: 15px;
@@ -558,15 +558,17 @@ li > a {
 
 .linkOne {
   text-align: center;
-  border-bottom: 3px solid transparent;
-  padding-bottom: 6px;
+  border: 3px solid transparent;
+  padding: 4px;
 }
 
 .linkOne:hover {
   text-decoration-color: rgb(253, 160, 0);
-  border-bottom: 3px solid rgb(253, 160, 0);
+  border: 3px solid rgb(253, 160, 0);
+  border-radius: 5px;
   color: rgb(253, 160, 0);
-  padding-bottom: 6px;
+  padding-bottom: 4px;
+  background-color: rgba(177, 136, 66, 0.807);
 }
 
 section {

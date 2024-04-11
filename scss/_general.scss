@@ -22,15 +22,17 @@ li > a {
 
 .linkOne {
     text-align: center;
-    border-bottom: 3px solid  transparent;
-    padding-bottom: 6px;
+    border: 3px solid  transparent;
+    padding: 4px;
 }
 
 .linkOne:hover {
     text-decoration-color: rgba(253,160,0,1);
-    border-bottom: 3px solid  rgba(253,160,0,1);
+    border: 3px solid  rgba(253,160,0,1);
+    border-radius: 5px;
     color: rgba(253,160,0,1);
-    padding-bottom: 6px;
+    padding-bottom: 4px;
+    background-color: rgba(177, 136, 66, 0.807) ;
 }
 
 
