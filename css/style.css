@@ -112,7 +112,6 @@
 }
 
 .containerFifthteen {
-  height: 10px;
   width: 100%;
   margin: 20px;
   display: flex;
@@ -126,13 +125,14 @@
   display: flex;
 }
 
+/* USED IN: latinspanish.html */
 .containerSeventeen {
   display: flex;
   flex-direction: column;
   margin: auto;
   margin-top: 20px;
   width: 100%;
-  height: 750px;
+  height: auto;
   align-items: center;
 }
 
@@ -146,13 +146,14 @@
   align-items: center;
 }
 
+/*USED IN: Instrumental.html*/
 .containerNineteen {
   display: flex;
   flex-direction: column;
   margin: auto;
   margin-top: 20px;
   width: 100%;
-  height: 850px;
+  height: auto;
   align-items: center;
 }
 
