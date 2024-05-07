@@ -537,6 +537,12 @@ nav {
   list-style: none;
 }
 
+/*UTILIZADO EN: index.html*/
+.buttonToggler {
+  color: rgb(253, 160, 0);
+  border: 1px solid rgb(253, 160, 0);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
