@@ -20,10 +20,10 @@ nav {
 /* UTILIZADO EN: <footer> index.html; bio.html */
 .navbarTwo {
     height:50px;
-    width:80%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    width:100%;
+    /*display: flex;
+    /*justify-content: flex-end;*/
+    /*align-items: center;*/
     list-style: none;
     font-family: "Fjalla One";
 }
@@ -63,9 +63,14 @@ nav {
     list-style: none;
 }
 
+.navbarSix {
+    align-self: center;
+}
+
 /*UTILIZADO EN: index.html*/
 
 .buttonToggler {
     color: rgba(253, 160, 0, 1);
     border: 1px solid rgba(253, 160, 0, 1);
 }
+
