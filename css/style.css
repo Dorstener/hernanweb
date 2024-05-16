@@ -497,9 +497,6 @@ nav {
 .navbarTwo {
   height: 50px;
   width: 100%;
-  /*display: flex;
-  /*justify-content: flex-end;*/
-  /*align-items: center;*/
   list-style: none;
   font-family: "Fjalla One";
 }
@@ -545,6 +542,11 @@ nav {
 .buttonToggler {
   color: rgb(253, 160, 0);
   border: 1px solid rgb(253, 160, 0);
+}
+
+.navbarSeven {
+  display: flex;
+  justify-content: end;
 }
 
 * {

@@ -21,9 +21,6 @@ nav {
 .navbarTwo {
     height:50px;
     width:100%;
-    /*display: flex;
-    /*justify-content: flex-end;*/
-    /*align-items: center;*/
     list-style: none;
     font-family: "Fjalla One";
 }
@@ -74,3 +71,7 @@ nav {
     border: 1px solid rgba(253, 160, 0, 1);
 }
 
+.navbarSeven {
+    display: flex;
+    justify-content: end;
+}
