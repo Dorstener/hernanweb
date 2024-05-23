@@ -484,6 +484,11 @@ nav {
   justify-content: end;
 }
 
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 90%;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
