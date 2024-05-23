@@ -21,21 +21,27 @@ li > a {
     padding-bottom: 6px;
 }
 
+//Creo que esta class de link one está al pedo. Fui borrando cosas y no afecta en nada, pero no la voy a quitar porque no es el focus ahora, pero terminada la web, ver como la quito del medio, porque me parece innecesaria//
 .linkOne {
-    text-align: center;
-    border: 3px solid  transparent;
-    padding: 4px;
+   text-align: center;
+   border: 3px solid  transparent;
 }
 
 .linkOne:hover {
-    text-decoration-color: rgba(253,160,0,1);
-    border: 3px solid  rgba(253,160,0,1);
-    border-radius: 5px;
-    color: rgba(253,160,0,1);
-    padding-bottom: 4px;
-    background-color: rgba(177, 136, 66, 0.807) ;
+    color: rgba(232, 228, 220, 0.9);
 }
 
+.linkOne:active {
+    color: rgba(232, 228, 220, 0.9);
+}
+
+.linkOne:focus {
+    color: rgba(232, 228, 220, 0.9);
+}
+
+.dropdown-menu {
+    color: rgba(232, 228, 220, 0.9);
+}
 
 section {
     width: 50%;

@@ -489,6 +489,10 @@ nav {
   width: 90%;
 }
 
+.nav-link.dropdown-toggle.show {
+  color: rgba(232, 228, 220, 0.9);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -515,16 +519,22 @@ li > a {
 .linkOne {
   text-align: center;
   border: 3px solid transparent;
-  padding: 4px;
 }
 
 .linkOne:hover {
-  text-decoration-color: rgb(253, 160, 0);
-  border: 3px solid rgb(253, 160, 0);
-  border-radius: 5px;
-  color: rgb(253, 160, 0);
-  padding-bottom: 4px;
-  background-color: rgba(177, 136, 66, 0.807);
+  color: rgba(232, 228, 220, 0.9);
+}
+
+.linkOne:active {
+  color: rgba(232, 228, 220, 0.9);
+}
+
+.linkOne:focus {
+  color: rgba(232, 228, 220, 0.9);
+}
+
+.dropdown-menu {
+  color: rgba(232, 228, 220, 0.9);
 }
 
 section {
