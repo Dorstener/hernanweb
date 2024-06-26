@@ -485,12 +485,19 @@ nav {
 }
 
 .dropdown-menu {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0;
   width: 90%;
 }
 
-.nav-link.dropdown-toggle.show {
-  color: rgba(232, 228, 220, 0.9);
+.dropdown-menu .dropdown-item:hover {
+  color: rgb(232, 228, 220);
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0;
+}
+
+.nav-link.dropdown-toggle.show, .nav-link.dropdown-toggle:focus {
+  color: rgb(232, 228, 220);
 }
 
 .navbar-collapse {
@@ -500,6 +507,19 @@ nav {
 /*Con esto se maneja el color del icono del menu hamburguesa*/
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253, 160, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Con el background color, modifico el color de Setlist y de Discografia cuando cliqueo en ellos, y con el color, se define el color de la tipografia*/
+.nav-item.dropdown .nav-link.dropdown-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+  color: rgb(232, 228, 220); /* Orange text on hover for visibility */
+}
+
+/* Este es para darle estilo al menu hamburguesa*/
+.buttonToggler {
+  color: rgb(253, 160, 0);
+  border: 1px solid rgb(253, 160, 0);
+  padding: 1px 5px; /* Added padding for better touch target size */
 }
 
 * {
