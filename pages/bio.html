@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+        <!--CSS-->
     <link rel="stylesheet" href="/css/style.css">
+    
     <title>Hernan Filippini - Biografia</title>
 
     <!-- FONTS - Fjalla One -->
@@ -38,18 +45,71 @@
 
 <body>
     <header>
-        <nav>
-            <ul class="navbarTwo">
-                <li class="linkOne fontSix"><a href="/index.html">Home</a></li>
-                <li class="linkOne fontSix"><a href="/pages/bio.html">Bio</a></li>
-                <li class="linkOne fontSix"><a href="/pages/setlists.html">Setlists</a></li>
-                <li class="linkOne fontSix"><a href="/pages/covers.html">Covers</a></li>
-                <li class="linkOne fontSix"><a href="/pages/original.html">Original</a></li>
-                <li class="linkOne fontSix"><a href="/pages/produccion.html">Producción</a></li>
-                <li class="linkOne fontSix"><a href="/pages/discografia.html">Discografía</a></li>
-                <li class="linkOne fontSix"><a href="/pages/agenda.html">Agenda</a></li>
-                <li class="linkOne fontSix"><a href="/pages/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-black d-flex p-2 navbarTwo">
+            <div class="container-fluid">
+                <a class=" linkOne fontSix" href="/index.html">Home</a>
+                <button class="navbar-toggler buttonToggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" aria-current="page" href="/pages/bio.html">Bio</a>
+                            <!-- Por si las moscas, aca borré una class "active" de Bootstrap, asi que si llega a fallar el menu y no se porque, intentar volviendo a agregarla-->
+                        </li>
+                        <li class="nav-item dropdown linkOne">
+                            <a class="nav-link dropdown-toggle fontSix linkOne" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Setlists
+                            </a>
+                            <ul class="dropdown-menu fontSix">
+                                <li><a class="dropdown-item fontTwo" href="/pages/setlists/ceremony.html">Ceremony</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/setlists/cocktail.html">Cocktail</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/setlists/latinspanish.html">Latin
+                                        Spanish</a></li>
+                                <li><a class="dropdown-item fontTwo"
+                                        href="/pages/setlists/instrumental.html">Instrumental</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/covers.html">Covers</a>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/original.html">Original</a>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/produccion.html">Producción</a>
+                        </li>
+                        <li class="nav-item dropdown linkOne">
+                            <a class="nav-link dropdown-toggle fontSix linkOne" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Discografía
+                            </a>
+                            <ul class="dropdown-menu fontSix">
+                                <li><a class="dropdown-item fontTwo" href="/pages/discografia/simple.html">Simple</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/discografia/sunset.html">Sunset</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/discografia/disco3.html">3er Disco</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/discografia/disco4.html">4to Disco</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/agenda.html">Agenda</a>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <hr>
@@ -57,18 +117,21 @@
         <section class="containerTwenty">
             <img src="/images/hernan2.jpg" alt="foto de hernan tocando" class="imageTwo">
             <h1 class="fontOne containerTwentyEight">BIO</h1>
-            <p class="fontTwo containerTwentyEight">Nacido en la ciudad bonaerense de San Nicolás de los Arroyos, Argentina en el año 83.
+            <p class="fontTwo containerTwentyEight">Nacido en la ciudad bonaerense de San Nicolás de los Arroyos,
+                Argentina en el año 83.
                 Pegado a una guitarra desde los 11, fue finalista de los Torneos Juveniles Bonaerenses en la categoría
                 de solista de guitarra en los años 96 y 97. Comenzó por ese entonces a acompañar a su padre en su
                 repertorio de folclore y tango con quien aprendería dos cosas fundamentales que le acompañarían el
                 resto de su carrera: el respeto por las canciones y que siempre hay que seguir al cantante.</p>
-            <p class="fontTwo containerTwentyEight">A la sombra de los ritmos folclóricos y de las canciones de autor crecería su
+            <p class="fontTwo containerTwentyEight">A la sombra de los ritmos folclóricos y de las canciones de autor
+                crecería su
                 curiosidad por estilos diversos y casi antagónicos. Tanto que no fue capaz de ubicarse nunca bajo el
                 techo de ninguna etiqueta. Este es un desamparo que continúa aún hoy, siendo demasiado hippie para sus
                 amigos abogados y demasiado formal para sus amigos hippies. Blues, bolero, rock, reggae, bossa nova...
                 No hay género al que la valentía que infunde la ignorancia no le permita enfrentarse con el paradójico
                 resultado de salir siempre airosamente derrotado.</p>
-            <p class="fontTwo containerTwentyEight">Con su emigración a España, concretamente a la ciudad de Zaragoza, comenzó su
+            <p class="fontTwo containerTwentyEight">Con su emigración a España, concretamente a la ciudad de Zaragoza,
+                comenzó su
                 andadura
                 fuera del cobijo musical del ala paternal y con ello la llegada a su vida de artistas que irían
                 moldeando y poniendo a prueba sus habilidades y su incapacidad de decir que no. Así se embarcaría en el
@@ -77,22 +140,26 @@
                 longevo con la cantante Patricia Badian, en la compañía teatral de Santiago Melendez para quien
                 compondría la música de una de sus obras y a quien acompañaría en otras 2 y en la jauría habitual donde
                 compartiría escenario con músicos de la talla de Chabi Benedé, Nico Cassinelli o Ángel González.</p>
-            <p class="fontTwo containerTwentyEight">En el año 2012, tras ser bendecido con el despido de un trabajo ingrato, se traslada
+            <p class="fontTwo containerTwentyEight">En el año 2012, tras ser bendecido con el despido de un trabajo
+                ingrato, se traslada
                 a la
                 ciudad de Huesca donde se gradúa como Técnico Superior de Sonido, aprendiendo por fin para qué servían
                 todos esos botones que llevaba años apretando.</p>
-            <p class="fontTwo containerTwentyEight">A principios del año 2015, tras un breve paso por el mundo de las orquestas donde
+            <p class="fontTwo containerTwentyEight">A principios del año 2015, tras un breve paso por el mundo de las
+                orquestas donde
                 cosecharía valiosas amistades y privación severa del sueño desembarcaría (de forma literal) en la isla
                 de Mallorca. Allí se quitó las vendas manchadas de sangre imaginaria producida por los estigmas del arte
                 callejero, con el que reafirmó la importancia vital de ser feliz haciendo lo que uno hace. Y desde
                 entonces comparte su felicidad acompañado de cantantes de la talla de Sandra Backwinkel, Viviana Di
                 Iulio o Karina Recchimuzzi.</p>
-            <p class="fontTwo containerTwentyEight">Tarde descubrió que escribir canciones es un ejercicio y que es muy probable que la
+            <p class="fontTwo containerTwentyEight">Tarde descubrió que escribir canciones es un ejercicio y que es muy
+                probable que la
                 segunda canción sea mejor que la primera. En los últimos años ha repartido su tiempo entre las más de
                 100 actuaciones anuales con la composición de sus canciones y la producción de artistas emergentes.</p>
-            <p class="fontTwo containerTwentyEight">Actualmente afirma no tener en su discurso más que una verdad: <span class="fontNine"> el alcance del arte
-                es
-                proporcional al amor y dedicación que uno pone en él.</span></p>
+            <p class="fontTwo containerTwentyEight">Actualmente afirma no tener en su discurso más que una verdad: <span
+                    class="fontNine"> el alcance del arte
+                    es
+                    proporcional al amor y dedicación que uno pone en él.</span></p>
         </section>
     </main>
     <hr>
@@ -120,6 +187,14 @@
             </a>
         </div>
     </footer>
+
+    <!-- Bootstrap JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Javascript-->
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
