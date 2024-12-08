@@ -4,8 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--CSS-->
     <link rel="stylesheet" href="/css/style.css">
-    <title>Hernan Filippini - Producción</title>
+
+    <title>Hernan Filippini - Privacy Policy</title>
 
     <!-- FONTS - Fjalla One -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +32,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cagliostro&family=Fjalla+One&family=Gayathri:wght@100;400;700&display=swap"
         rel="stylesheet">
- fontSix
+    fontSix
     <!-- FONTS - Roboto-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,164 +46,182 @@
 </head>
 
 <body>
+
     <header>
-        <nav>
-            <ul class="navbarTwo">
-                <li class="linkOne fontSix"><a href="/index.html">Home</a></li>
-                <li class="linkOne fontSix"><a href="/pages/bio.html">Bio</a></li>
-                <li class="linkOne fontSix"><a href="/pages/setlists.html">Setlists</a></li>
-                <li class="linkOne fontSix"><a href="/pages/covers.html">Covers</a></li>
-                <li class="linkOne fontSix"><a href="/pages/original.html">Original</a></li>
-                <li class="linkOne fontSix"><a href="/pages/produccion.html">Producción</a></li>
-                <li class="linkOne fontSix"><a href="/pages/discografia.html">Discografía</a></li>
-                <li class="linkOne fontSix"><a href="/pages/agenda.html">Agenda</a></li>
-                <li class="linkOne fontSix"><a href="/pages/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-black d-flex p-2 navbarTwo">
+            <div class="container-fluid">
+                <a class=" linkOne fontSix" href="/index.html">Home</a>
+                <button class="navbar-toggler buttonToggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" aria-current="page" href="/pages/bio.html">Bio</a>
+                            <!-- Por si las moscas, aca borré una class "active" de Bootstrap, asi que si llega a fallar el menu y no se porque, intentar volviendo a agregarla-->
+                        </li>
+                        <li class="nav-item dropdown linkOne">
+                            <a class="nav-link dropdown-toggle fontSix linkOne" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Setlists
+                            </a>
+                            <ul class="dropdown-menu fontSix">
+                                <li><a class="dropdown-item fontTwo" href="/pages/setlists/ceremony.html">Ceremony</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/setlists/cocktail.html">Cocktail</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/setlists/latinspanish.html">Latin
+                                        Spanish</a></li>
+                                <li><a class="dropdown-item fontTwo"
+                                        href="/pages/setlists/instrumental.html">Instrumental</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/covers.html">Covers</a>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/original.html">Original</a>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/produccion.html">Producción</a>
+                        </li>
+                        <li class="nav-item dropdown linkOne">
+                            <a class="nav-link dropdown-toggle fontSix linkOne" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Discografía
+                            </a>
+                            <ul class="dropdown-menu fontSix">
+                                <li><a class="dropdown-item fontTwo" href="/pages/discografia/simple.html">Simple</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/discografia/sunset.html">Sunset</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/discografia/disco3.html">3er Disco</a>
+                                </li>
+                                <li><a class="dropdown-item fontTwo" href="/pages/discografia/disco4.html">4to Disco</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/agenda.html">Agenda</a>
+                        </li>
+                        <li class="nav-item navbarSix">
+                            <a class="nav-link linkOne fontSix" href="/pages/contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <hr>
     <div class="containerThirdteen">
-        <h1 class="fontOne">Legal Advice</h1>
-        <p class="fontThree">You are in a space committed to the rights of its users and for that reason, you will have
-            maximum transparency and rigor about everything you need to know about this website.
+        <h1 class="fontOne">Aviso Legal</h1>
+        <p class="fontThree">Estás en un espacio comprometido con los derechos de sus usuarios y, por esa razón, tendrás
+            la máxima transparencia y rigor sobre todo lo que necesitas saber acerca de este sitio web.
         </p>
-        <br>
-        <p class="fontThree">This website strictly complies with Organic Law 3/2018, of December 5, on the Protection of
-            Personal Data and guarantee of digital rights (LOPDGDD). It also complies with Regulation (EU) 2016/679 of
-            the
-            European Parliament and of the Council of April 27, 2016 regarding the protection of natural persons (RGPD),
-            as
-            well as with Law 34/2002, of July 11, of Information Society Services and Electronic Commerce (LSSICE or
-            LSSI).
+        <p class="fontThree">Este sitio web cumple estrictamente con la Ley Orgánica 3/2018, de 5 de diciembre, de
+            Protección de Datos Personales y garantía de derechos digitales (LOPDGDD). También cumple con el Reglamento
+            (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las
+            personas físicas (RGPD), así como con la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la
+            Información y Comercio Electrónico (LSSICE o LSSI).
         </p>
+        <p class="fontThree">Los servicios y/o productos están disponibles únicamente para personas jurídicas y físicas
+            mayores de 16 años.</p>
         <br>
-        <p class="fontThree">The services and / or products are available only to legal entities and persons who are 16
-            years old</p>
-        <br>
-        <p class="fontTwo fontFive">Identifier of the person in charge of the web</p>
-        <br>
-        <p class="fontThree">Company name: Hernán Filippini
+        <p class="fontTwo fontFive">Identificación del responsable del sitio web</p>
+        <p class="fontThree">Nombre de la Empresa: Hernán Filippini
         </p>
         <p class="fontThree">Email: <a href="mailto:hernanfilippini@hotmail.com"
                 class="fontFour">hernanfilippini@hotmail.com</a>
         </p>
         <br>
-        <p class="fontTwo fontFive">Commitments and obligations of users</p>
-        <br>
-        <p class="fontThree">The user is informed, and accepts, that access to this website does not imply, in any way,
-            the
-            beginning of a business relationship with Hernán Filippini. In this way, the user agrees to use the website,
-            its
-            services and contents without violating current legislation, good faith and public order.
+        <p class="fontTwo fontFive">Compromisos y obligaciones de los usuarios</p>
+        <p class="fontThree">El usuario está informado y acepta que el acceso a este sitio web no implica, de ninguna
+            manera, el inicio de una relación comercial con Hernán Filippini. De este modo, el usuario se compromete a
+            utilizar el sitio web, sus servicios y contenidos sin contravenir la legislación vigente, la buena fe y el
+            orden público.
         </p>
-        <br>
-        <p class="fontThree">The use of the website, for illicit or harmful purposes, or that, in any way, may cause
-            damage
-            or prevent the normal functioning of the website is prohibited. Regarding the contents of this website, it
-            is
-            prohibited:
+        <p class="fontThree">Se prohíbe el uso del sitio web con fines ilícitos o dañinos, o que, de cualquier manera,
+            puedan causar perjuicio o impedir el normal funcionamiento del sitio web. En relación con los contenidos de
+            este sitio web, se prohíbe:
         </p>
-        <br>
+
         <ul>
-            <li class="fontThree">Its reproduction, distribution or modification, in whole or in part, unless you have
-                my
-                authorization as the legitimate owner.
+            <li class="fontThree">Su reproducción, distribución o modificación, total o parcial, a menos que cuentes con
+                mi autorización como propietario legítimo.
             </li>
-            <li class="fontThree">Any violation of the rights of the provider or of me as the legitimate owner.
+            <li class="fontThree">Cualquier vulneración de los derechos del prestador o de mí como propietario legítimo.
             </li>
-            <li class="fontThree">Its use for commercial or advertising purposes.</li>
+            <li class="fontThree">Su uso con fines comerciales o publicitarios.</li>
         </ul>
-        <br>
-        <p class="fontThree">When using the Hernán Filippini website, the user agrees not to carry out any conduct that
-            could damage the image, interests and rights of Hernán Filippini or third parties or that could damage,
-            disable
-            or overload the karinarecchimuzzi.com portal or that prevents, in any way, the normal use of the web.</p>
-        <br>
-        <p class="fontThree">However, the user must be aware that the security measures of computer systems on the
-            Internet
-            are not entirely reliable and that, therefore, karinarecchimuzzi.com cannot guarantee the absence of malware
-            or
-            other elements that may cause alterations in computer systems. (software and hardware) of the user or in
-            their
-            electronic documents and files contained therein, although I put all the necessary means and the appropriate
-            security measures to avoid the presence of these harmful elements.
+        <p class="fontThree">Al utilizar el sitio web de Hernán Filippini, el usuario se compromete a no llevar a cabo
+            ninguna conducta que pueda dañar la imagen, los intereses y los derechos de Hernán Filippini o de terceros,
+            o que pueda dañar, inutilizar o sobrecargar el portal karinarecchimuzzi.com, o que impida, de cualquier
+            forma, su uso normal.</p>
+        <p class="fontThree">No obstante, el usuario debe ser consciente de que las medidas de seguridad de los sistemas
+            informáticos en Internet no son completamente fiables y que, por lo tanto, karinarecchimuzzi.com no puede
+            garantizar la ausencia de malware u otros elementos que puedan producir alteraciones en los sistemas
+            informáticos (software y hardware) del usuario o en sus documentos electrónicos y archivos contenidos en
+            ellos, aunque pongo todos los medios necesarios y las medidas de seguridad adecuadas para evitar la
+            presencia de estos elementos dañinos.
         </p>
         <br>
-        <p class="fontTwo fontFive">Security measures</p>
-        <br>
-        <p class="fontThree">The personal data communicated by the user to Hernán Filippinii can be stored in automated
-            databases or not, whose ownership corresponds exclusively to the management of computer resources, assuming
-            all
-            the technical, organizational and security measures that guarantee confidentiality , integrity and quality
-            of
-            the information contained therein in accordance with the provisions of current regulations on data
-            protection.
+        <p class="fontTwo fontFive">Medidas de seguridad</p>
+        <p class="fontThree">Los datos personales comunicados por el usuario a Hernán Filippini pueden almacenarse en
+            bases de datos automatizadas o no, cuya titularidad corresponde exclusivamente a la gestión de recursos
+            informáticos, asumiendo todas las medidas técnicas, organizativas y de seguridad que garanticen la
+            confidencialidad, integridad y calidad de la información contenida en ellas, de acuerdo con lo establecido
+            en la normativa vigente en protección de datos.
         </p>
+        <p class="fontThree">La comunicación entre los usuarios y Hernán Filippini utiliza un canal seguro, y los datos
+            transmitidos están cifrados gracias a los protocolos HTTPS. Por lo tanto, garantizo las mejores condiciones
+            de seguridad para que la confidencialidad de los usuarios esté garantizada.</p>
         <br>
-        <p class="fontThree">Communication between users and hernanfilippini uses a secure channel, and the transmitted
-            data
-            is encrypted thanks to https protocols, therefore, I guarantee the best security conditions so that the
-            confidentiality of the users is guaranteed.</p>
-        <br>
-        <p class="fontTwo fontFive">Conflict resolution platform</p>
-        <br>
-        <p class="fontThree">I also make available to users the dispute resolution platform provided by the European
-            Commission and which is available at the following <a href="http://ec.europa.eu/consumers/odr/"
+        <p class="fontTwo fontFive">Plataforma de resolución de conflictos</p>
+        <p class="fontThree">También pongo a disposición de los usuarios la plataforma de resolución de litigios que
+            ofrece la Comisión Europea, disponible en el siguiente enlace:<a href="http://ec.europa.eu/consumers/odr/"
                 target="_blank" class="fontFour"> link</a></p>
         <br>
-        <p class="fontTwo fontFive">External links</p>
-        <br>
-        <p class="fontThree">The hernanfilippini.com web pages provide links to other websites and content that are
-            owned by
-            third parties.</p>
-        <br>
-        <p class="fontThree">The sole purpose of the links is to provide the user with the possibility of accessing said
-            links.
+        <p class="fontTwo fontFive">Enlaces externos</p>
+        <p class="fontThree">Las páginas web de hernanfilippini.com proporcionan enlaces a otros sitios web y contenidos
+            que son propiedad de terceros.</p>
+        <p class="fontThree">El único propósito de los enlaces es proporcionar al usuario la posibilidad de acceder a
+            dichos enlaces.
+        </p>
+        <p class="fontThree">Hernán Filippini no se responsabiliza en ningún caso de los resultados que puedan derivarse
+            al usuario por el acceso a dichos enlaces.
+        </p>
+        <p class="fontThree">Asimismo, el usuario encontrará dentro de este sitio páginas, promociones y programas de
+            afiliados que acceden a los hábitos de navegación de los usuarios para establecer perfiles. Esta información
+            siempre es anónima y el usuario no es identificado.</p>
+        <p class="fontThree">La información proporcionada en estos sitios patrocinados o enlaces de afiliados está
+            sujeta a las políticas de privacidad utilizadas en dichos sitios y no estará sujeta a esta política de
+            privacidad. Por lo tanto, recomiendo encarecidamente que los usuarios revisen en detalle las políticas de
+            privacidad de los enlaces de afiliados.
         </p>
         <br>
-        <p class="fontThree">Hernán Filippini is not responsible in any case for the results that may be derived to the
-            user
-            by accessing said links.
-        </p>
+        <p class="fontTwo fontFive">Exclusión de garantías y responsabilidad</p>
         <br>
-        <p class="fontThree">Likewise, the user will find within this site, pages, promotions, affiliate programs that
-            access the browsing habits of users to establish profiles. This information is always anonymous and the user
-            is
-            not identified</p>
-        <br>
-        <p class="fontThree">The information provided on these sponsored sites or affiliate links is subject to the
-            privacy
-            policies used on those sites and will not be subject to this privacy policy. Therefore, I highly recommend
-            that
-            users review the privacy policies of affiliate links in detail.
-        </p>
-        <br>
-        <p class="fontTwo fontFive">Exclusion of guarantees and responsibility</p>
-        <br>
-        <p class="fontThree">Hernán Filippini does not grant any guarantee nor is he responsible, in any case, for
-            damages
-            of any nature that could be caused by:</p>
-        <br>
+        <p class="fontThree">Hernán Filippini no otorga ninguna garantía ni se hace responsable, en ningún caso, de los
+            daños de cualquier naturaleza que pudieran ocasionarse por:</p>
         <ul>
-            <li class="fontThree">The lack of availability, maintenance and effective operation of the web, or of its
-                services
-                and contents.
+            <li class="fontThree">La falta de disponibilidad, mantenimiento y efectivo funcionamiento del sitio web, o
+                de sus servicios y contenidos.
             </li>
-            <li class="fontThree">The existence of malware, malicious or harmful programs in the content.</li>
-            <li class="fontThree">The illicit, negligent, fraudulent use or contrary to this Legal Notice.</li>
-            <li class="fontThree">The lack of legality, quality, reliability, usefulness and availability of the
-                services
-                provided by third parties and made available to users on the website.</li>
-            <li class="fontThree">The provider is not liable under any circumstances for damages that may arise from the
-                illegal
-                or improper use of this website</li>
+            <li class="fontThree">La existencia de malware, programas maliciosos o dañinos en los contenidos.</li>
+            <li class="fontThree">El uso ilícito, negligente, fraudulento o contrario a este Aviso Legal.</li>
+            <li class="fontThree">La falta de legalidad, calidad, fiabilidad, utilidad y disponibilidad de los servicios
+                prestados por terceros y puestos a disposición de los usuarios en el sitio web.</li>
+            <li class="fontThree">El prestador no se hace responsable en ningún caso de los daños que puedan derivarse
+                del uso ilegal o indebido de este sitio web.</li>
         </ul>
         <br>
-        <p class="fontTwo fontFive">Applicable law and jurisdiction</p>
-        <br>
-        <p class="fontThree">In general, the relations between Hernán Filippini and the users of his telematic services,
-            present on this website, are subject to Spanish legislation and jurisdiction and to the corresponding
-            courts.
+        <p class="fontTwo fontFive">Legislación aplicable y jurisdicción</p>
+        <p class="fontThree">Con carácter general, las relaciones entre Hernán Filippini y los usuarios de sus servicios
+            telemáticos presentes en este sitio web están sometidas a la legislación y jurisdicción españolas, así como
+            a los tribunales correspondientes.
         </p>
     </div>
 
@@ -205,10 +230,10 @@
     <footer>
         <nav class="containerTwelve">
             <ul class="navbarFour">
-                <li><a href="/pages/privacy.html" target="_blank" class="fontSeven">Privacy Policy</a>
+                <!--<li><a href="/pages/privacy.html" target="_blank" class="fontSeven">Privacy Policy</a>
                 </li>
                 <li><a href="#" target="_blank" class="fontSeven">????</a></li>
-                <li><a href="#" target="_blank" class="fontSeven">????</a></li>
+                <li><a href="#" target="_blank" class="fontSeven">????</a></li>-->
             </ul>
             <ul class="navbarThree">
                 <li><a href="https://www.facebook.com/filippinihernan/" target="_blank"><i
@@ -216,8 +241,8 @@
                 </li>
                 <li><a href="https://www.instagram.com/hernanfilippini/?hl=es" target="_blank"><i
                             class="fa-brands fa-instagram fa-2xl" style="color: #fda000;"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCXdtrUZ0VViVAauuRD5QVng"
-                        target="_blank"><i class="fa-brands fa-youtube fa-2xl" style="color: #fda000;"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCXdtrUZ0VViVAauuRD5QVng" target="_blank"><i
+                            class="fa-brands fa-youtube fa-2xl" style="color: #fda000;"></i></a></li>
             </ul>
         </nav>
         <div class="containerEleven">
