@@ -410,6 +410,7 @@
   margin: 40px 0px;
 }
 
+/* UTILIZADO EN: index.html /     */
 nav {
   height: 65px;
   width: 100%;
@@ -418,6 +419,7 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* UTILIZADO EN: cocktail.html */
 .navbarOne {
   height: 50px;
   width: 40%;
@@ -428,7 +430,7 @@ nav {
   list-style: none;
 }
 
-/* UTILIZADO EN: <footer> index.html; bio.html */
+/* UTILIZADO EN: <footer>; index.html; bio.html */
 .navbarTwo {
   height: 50px;
   width: 100%;
@@ -469,6 +471,7 @@ nav {
   list-style: none;
 }
 
+/* UTILIZADO ENL index.html;     */
 .navbarSix {
   align-self: center;
 }
