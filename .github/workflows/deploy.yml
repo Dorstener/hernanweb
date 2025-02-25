@@ -21,4 +21,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }} 
           password: ${{ secrets.FTP_PASSWORD }} 
           local-dir: ./ # Carpeta local a sincronizar
-          server-dir: hernanfilippini.com/ # Asegúrate de que esta sea la ruta correcta en Bluehost
+          server-dir: /home3/czthskmy/hernanfilippini.com/ # Asegúrate de que esta sea la ruta correcta en Bluehost
