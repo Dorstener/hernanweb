@@ -12,7 +12,7 @@
 .containerDos {
   display: flex;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
   width: 40%;
   height: 500px;
   justify-content: space-evenly;
@@ -42,6 +42,9 @@
   flex-direction: column;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 /* USED IN: Index.html; */
@@ -58,6 +61,8 @@
 .containerSeven {
   display: flex;
   background-color: rgb(1, 1, 1);
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: 60px;
   height: 500px;
   gap: 80px;
@@ -163,6 +168,8 @@
   width: 100%;
   height: auto;
   margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
   word-spacing: 5px;
 }
 
@@ -177,7 +184,7 @@
 .containerTwentyTwo {
   display: flex;
   flex-direction: column;
-  margin: 40px 40px;
+  margin: 50px 40px;
   height: 700px;
   align-items: center;
 }
@@ -234,6 +241,24 @@
   flex-direction: row;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+/* USED IN: original.html */
+.containerThirtyOne {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* USED IN: agenda.html */
+.containerThirtyTwo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* USED IN: contacto.html */
+.containerThirtyThree {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /*FONT TYPES */
