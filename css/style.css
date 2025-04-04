@@ -822,5 +822,15 @@ div > a {
     height: 2460px;
   }
 }
+/* Utilizado en Instrumental.html | cocktail.html | latinspanish.html | ceremony.html */
+.containerFive .navbarOne a {
+  color: rgba(253, 160, 0, 0.5);
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.containerFive .navbarOne a:hover {
+  color: rgb(253, 160, 0);
+}
 
 /*# sourceMappingURL=style.css.map */
