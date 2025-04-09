@@ -435,6 +435,14 @@
   margin: 40px 0px;
 }
 
+.imageSix {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+  width: 10%;
+  height: auto;
+}
+
 /* UTILIZADO EN: index.html /     */
 nav {
   height: 65px;
