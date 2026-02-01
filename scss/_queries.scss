@@ -1,0 +1,17 @@
+
+/* Responsive: centrar en pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .footer-social-icons {
+        justify-content: center;
+    }
+
+    .footer-social-icons a {
+        margin: 0 0.5rem;
+    }
+}

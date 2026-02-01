@@ -1,54 +1,12 @@
+/* Reset básico */
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgba(1,1,1,1);
-}
-
-hr {
-    border: 2px solid rgba(253,160,0,1);
-    margin: 0;
-}
-
-li > a {
-    margin-right: 10px;
-    margin-left: 10px;
-    color: rgba(253,160,0,1); 
-    text-decoration-color: transparent;
-    border-bottom: 3px solid transparent;
-    padding-bottom: 6px;
-}
-
-//Creo que esta class de link one está al pedo. Fui borrando cosas y no afecta en nada, pero no la voy a quitar porque no es el focus ahora, pero terminada la web, ver como la quito del medio, porque me parece innecesaria//
-.linkOne {
-   text-align: center;
-   border: 3px solid  transparent;
-}
-
-.linkOne:hover {
-    color: rgba(232, 228, 220, 0.9);
-}
-
-.linkOne:active {
-    color: rgba(232, 228, 220, 0.9);
-}
-
-.linkOne:focus {
-    color: rgba(232, 228, 220, 0.9);
-}
-
-section {
-    width: 50%;
-    height: 400px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-}
-
-div > a {
-    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
 }

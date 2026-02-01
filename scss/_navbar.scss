@@ -1,123 +1,36 @@
-/* UTILIZADO EN: index.html /     */
-
-nav {
-    height: 65px;
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
     width: 100%;
-    background-color: rgba(1,1,1,1);
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1)
-}
-
-/* UTILIZADO EN: cocktail.html */
-.navbarOne {
-    height:50px;
-    width: 70%;
-    margin:auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-}
-
-/* UTILIZADO EN: <footer>; index.html; bio.html */
-.navbarTwo {
-    height:80px;
-    width:100%;
-    list-style: none;
-    font-family: "Fjalla One";
-}
-
-/* UTILIZADO EN: <footer> index.html; bio.html */
-.navbarThree {
-    height:50px;
-    width:50%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    margin: 10px 0px;
-}
-
-
-/* UTILIZADO EN: <footer> index.html; bio.html */
-.navbarFour {
-    height:50px;
-    width:50%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
-    margin: 10px 0px;
-}
-
-/* UTILIZADO EN: contacto.html / */
-
-.navbarFive {
-    height:50px;
-    width:95%;
-    margin: 20px 0px;
+    background-color: #1e1e1e;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 1rem 0;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 0.5s ease;
+    z-index: 999;
+}
+
+.navbar.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.navbar ul {
     list-style: none;
-}
-
-/* UTILIZADO ENL index.html;     */
-
-.navbarSix {
-    align-self: center;
-}
-
-/*UTILIZADO EN: index.html*/
-
-.buttonToggler {
-    color: rgba(253, 160, 0, 1);
-    border: 1px solid rgba(253, 160, 0, 1);
-}
-
-.navbarSeven {
     display: flex;
-    justify-content: end;
+    gap: 2rem;
 }
 
-// Background color in the Dropdown Menu//
-.dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 0;
-    width: 90%;
+.navbar a {
+    text-decoration: none;
+    color: #fdd835;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-//Para targetear dropdown items hover dentro de los dropdown menus//
-
-.dropdown-menu .dropdown-item:hover {
-    color: rgba(232, 228, 220, 1);
-    background-color: rgba(0, 0, 0, 0.9) ;
-    margin: 0;
-}
-
-// Changes the font color of the Dropdown menu Main Categories (Example: Setlist or Discografia)
-.nav-link.dropdown-toggle.show, .nav-link.dropdown-toggle:focus {
-    color: rgba(232, 228, 220, 1);
-}
-
-.navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.8) ;
-}
-
-/*Con esto se maneja el color del icono del menu hamburguesa*/
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253, 160, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-
-/* Con el background color, modifico el color de Setlist y de Discografia cuando cliqueo en ellos, y con el color, se define el color de la tipografia*/
-.nav-item.dropdown .nav-link.dropdown-toggle:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
-    color: rgba(232, 228, 220, 1); /* Orange text on hover for visibility */
-}
-
-/* Este es para darle estilo al menu hamburguesa*/
-.buttonToggler {
-    color: rgba(253, 160, 0, 1);
-    border: 1px solid rgba(253, 160, 0, 1);
-    padding: 1px 5px; /* Added padding for better touch target size */
+.navbar a:hover {
+    color: #ffffff;
 }
