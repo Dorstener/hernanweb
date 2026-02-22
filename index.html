@@ -89,57 +89,62 @@
 
 
     <!-- SECCION - Original -->
-    <section id="original" class="section original">
-        <div class="original-container">
-            <h2>Original</h2>
-            <p class="original-intro">
-                Composiciones propias donde la guitarra y la voz cuentan historias únicas.
-                Escuchá mi música original en este espacio íntimo y auténtico.
-            </p>
+    <section id="original" class="original">
+  <div class="original__container">
+    <header class="original__header">
+      <h2 class="original__title">Original</h2>
+      <p class="original__subtitle">Videos y demos</p>
+    </header>
 
-            <div class="carousel-wrapper">
-                <!-- Flecha izquierda -->
-                <button class="carousel-btn left">
-                    &#10094;
-                </button>
-
-                <!-- Carrusel -->
-                <div class="carousel-track" id="carousel-track">
-                    <!-- Video 1 -->
-                    <div class="carousel-item">
-                        <iframe src="https://www.youtube.com/embed/ygwfv2jV8nk?si=-8zFRSTrBMHP5Exz" frameborder="0"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-
-                    <!-- Video 2 -->
-                    <div class="carousel-item">
-                        <iframe src="https://www.youtube.com/embed/uqDXI57ty4o?si=5EPZ65gUFQuUl4kr" frameborder="0"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-
-                    <!-- Video 3 -->
-                    <div class="carousel-item">
-                        <iframe src="https://www.youtube.com/embed/FmcoCzyANVM?si=ZA8sQjaPiT1veV7z" frameborder="0"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-
-                    <!-- Video 4 -->
-                    <div class="carousel-item">
-                        <iframe src="https://www.youtube.com/embed/ygwfv2jV8nk?si=bTz1t4c4x4DctYrU" frameborder="0"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-
-                <!-- Flecha derecha -->
-                <button class="carousel-btn right"> &#10095;
-                </button>
-            </div>
+    <!-- Hernán: duplicá un <li> por cada tema -->
+    <ul class="original__list" role="list">
+      <li class="original__row">
+        <div class="original__left">
+          <p class="original__track">VIVA LA VIDA</p>
+          <p class="original__meta">Live Session</p>
         </div>
-    </section>
+
+        <a
+          class="original__yt"
+          href="https://www.youtube.com/watch?v=XXXXXXXXXXX"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Abrir Viva la Vida en YouTube"
+        >
+          <span class="original__yt-icon" aria-hidden="true">
+            <!-- YouTube icon (SVG) -->
+            <svg viewBox="0 0 24 24" width="18" height="18">
+              <path d="M21.8 8.001a3.01 3.01 0 0 0-2.12-2.13C17.84 5.4 12 5.4 12 5.4s-5.84 0-7.68.47A3.01 3.01 0 0 0 2.2 8c-.47 1.85-.47 3.999-.47 3.999s0 2.149.47 3.999a3.01 3.01 0 0 0 2.12 2.13c1.84.47 7.68.47 7.68.47s5.84 0 7.68-.47a3.01 3.01 0 0 0 2.12-2.13c.47-1.85.47-3.999.47-3.999s0-2.149-.47-3.999ZM10.2 15.4V8.6l6 3.4-6 3.4Z"/>
+            </svg>
+          </span>
+          <span class="original__yt-text">YouTube</span>
+        </a>
+      </li>
+
+      <li class="original__row">
+        <div class="original__left">
+          <p class="original__track">DESPACITO</p>
+          <p class="original__meta">Cover</p>
+        </div>
+
+        <a
+          class="original__yt"
+          href="https://www.youtube.com/watch?v=YYYYYYYYYYY"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Abrir Despacito en YouTube"
+        >
+          <span class="original__yt-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18">
+              <path d="M21.8 8.001a3.01 3.01 0 0 0-2.12-2.13C17.84 5.4 12 5.4 12 5.4s-5.84 0-7.68.47A3.01 3.01 0 0 0 2.2 8c-.47 1.85-.47 3.999-.47 3.999s0 2.149.47 3.999a3.01 3.01 0 0 0 2.12 2.13c1.84.47 7.68.47 7.68.47s5.84 0 7.68-.47a3.01 3.01 0 0 0 2.12-2.13c.47-1.85.47-3.999.47-3.999s0-2.149-.47-3.999ZM10.2 15.4V8.6l6 3.4-6 3.4Z"/>
+            </svg>
+          </span>
+          <span class="original__yt-text">YouTube</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
 
 
 

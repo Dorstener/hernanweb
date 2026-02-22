@@ -1,0 +1,118 @@
+/* ===== Original (lista editorial) ===== */
+.original {
+  padding: 5rem 0;
+  background: #1a1a1a;
+  color: #fff;
+  border-bottom: 1px solid #333;
+}
+
+.original__container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.original__header {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.original__title {
+  margin: 0 0 8px;
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: 1.05;
+  color: #fdd835; /* tu amarillo */
+}
+
+.original__subtitle {
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* List */
+.original__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.original__row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 18px;
+
+  padding: 20px 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  transition: background 0.18s ease;
+}
+
+.original__row:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.original__track {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.22em; /* tracking */
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.original__meta {
+  margin: 8px 0 0;
+  opacity: 0.75;
+  letter-spacing: 0.08em;
+  font-size: 13px;
+}
+
+/* YouTube button */
+.original__yt {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 12px;
+
+  color: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.02);
+
+  transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.original__yt:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.original__yt:focus-visible {
+  outline: 2px solid #fdd835;
+  outline-offset: 3px;
+}
+
+.original__yt-icon svg {
+  fill: currentColor;
+  opacity: 0.95;
+}
+
+/* Responsive */
+@media (max-width: 520px) {
+  .original__row {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .original__yt {
+    width: 100%;
+    justify-content: center;
+  }
+}
