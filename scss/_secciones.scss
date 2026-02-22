@@ -210,42 +210,7 @@
 }
 
 
-/* SECCION > Agenda */
-.agenda {
-    background-color: #121212;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
 
-.agenda-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 3rem 1rem;
-}
-
-.agenda h2 {
-    font-size: 2rem;
-    color: #fdd835;
-    margin-bottom: 1rem;
-}
-
-.agenda-description {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    color: #cccccc;
-    line-height: 1.6;
-}
-
-.agenda-image {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-}
 
 /* SECCION > CONTACTO */
 .contacto {
