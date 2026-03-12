@@ -1,11 +1,15 @@
 //main.scss
 
+@import 'variables';
+
 @import 'hero';
+@import 'sec_sobremi';
 @import 'navbar';
 @import 'secciones';
 @import 'sec_agenda';
 @import 'sec_setlist';
 @import 'sec_original';
+@import 'sec_contacto';
 @import 'footer';
 @import 'queries';
 @import 'general';

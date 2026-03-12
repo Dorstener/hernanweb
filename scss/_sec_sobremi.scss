@@ -1,0 +1,62 @@
+/* SECCION > SOBRE MI */
+
+.about {
+    background-color: #181818;
+    padding: 4rem 1.5rem;
+    min-height: 100vh;
+    color: #fff;
+    font-family: $font-principal;
+    letter-spacing: 0.08em;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    padding: 3rem 1.5rem;
+}
+
+.about-image img {
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.about-text {
+    text-align: center;
+    
+
+}
+
+.about-text h2 {
+    font-size: $font-size-subtitulo;
+    margin-bottom: 1rem;
+    color: #fdd835;
+    line-height: 1.05;
+}
+
+.about-text p {
+    font-size: $font-size-texto;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.btn-secondary {
+    padding: 0.8rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid #fdd835;
+    color: #fdd835;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: $font-principal;
+    font-size: $font-size-btn;    
+}
+
+.btn-secondary:hover {
+    background-color: #fdd835;
+    color: #121212;}

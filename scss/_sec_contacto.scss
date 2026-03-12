@@ -1,0 +1,78 @@
+/* SECCION > CONTACTO */
+.contacto {
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+}
+
+.contacto-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 4rem 1.5rem;
+}
+
+.contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fdd835;
+}
+
+.contacto p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.social-icons {
+    margin-bottom: 2rem;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #fdd835;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #fdd835;
+}
+
+.contact-form .btn-setlist {
+    padding: 0.8rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid #fdd835;
+    color: #fdd835;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: $font-principal;
+    font-size: $font-size-btn;  
+    align-self: center;
+}
+
+.contact-form .btn-setlist:hover {
+    background-color: #fdd835;
+    color: #121212;
+}

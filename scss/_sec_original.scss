@@ -1,9 +1,11 @@
 /* ===== Original (lista editorial) ===== */
 .original {
-  padding: 5rem 0;
-  background: #1a1a1a;
-  color: #fff;
-  border-bottom: 1px solid #333;
+  background-color: #0B0B0B;
+  padding: 4rem 1.5rem;
+  min-height: 100vh;
+  letter-spacing: 0.08em;
+  font-family: $font-principal;
+  border-bottom: 1px solid #333;  /*Esta linea es la que separa la seccion con una linea muy delgada */
 }
 
 .original__container {
@@ -17,14 +19,17 @@
 }
 
 .original__title {
-  margin: 0 0 8px;
-  font-size: clamp(28px, 3vw, 42px);
+  font-size: $font-size-subtitulo;
+  margin-bottom: 1rem;
+  color: #fdd835;
   line-height: 1.05;
-  color: #fdd835; /* tu amarillo */
+  letter-spacing: 0.08em;
 }
 
 .original__subtitle {
-  margin: 0;
+  font-size: $font-size-texto;
+  margin-bottom: 1rem;
+  line-height: 1.05;
   opacity: 0.8;
 }
 

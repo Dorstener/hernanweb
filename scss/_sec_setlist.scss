@@ -9,6 +9,9 @@
     align-items: center;
     min-height: 100vh;
     text-align: center;
+    letter-spacing: 0.08em;
+    font-family: $font-principal;
+    border-bottom: 1px solid #333;  /*Esta linea es la que separa la seccion con una linea muy delgada */
 }
 
 .setlists-container {
@@ -18,16 +21,16 @@
 }
 
 .setlists h2 {
-    font-size: 2rem;
+    font-size: $font-size-subtitulo;
     margin-bottom: 1rem;
     color: #1c1c1c;
-    font-size: clamp(28px, 3vw, 42px);
     line-height: 1.05;
 }
 
 .setlists-intro {
-    font-size: 1.1rem;
+    font-size: $font-size-texto;
     margin-bottom: 2rem;
+    line-height: 1.6;
     color: #1c1c1c;
 }
 
@@ -37,10 +40,6 @@
     justify-content: center;
     gap: 1rem;
     color: #1c1c1c;
-}
-
-.setlists-buttons .btn-setlist-general:hover {
-    background-color: red !important;
 }
 
 .btn-setlist {
@@ -73,17 +72,10 @@
 }
 
 
-.setlists-buttons .btn-setlist-general.active {
-    background-color: #121212;   /* Amarillo de tu sitio */
-    color: #fdd835;              /* Texto oscuro */
-    border: 2px solid #fdd835;
-}
-
-
 .setlists-buttons .btn-setlist-general:hover {
-    background-color: #fdd835;
-    color: #121212;
-    border-color:#fdd835 ;
+    background-color:  #121212;
+    color: white;
+    border-color: #121212 ;
     cursor: pointer;
 }
 
@@ -123,7 +115,7 @@
     border-radius: 4px;
     text-decoration: none;
     transition: all 0.3s ease;
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-principal;
     font-size: 1.1rem;
 }
 
