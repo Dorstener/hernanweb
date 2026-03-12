@@ -39,8 +39,8 @@
     color: #1c1c1c;
 }
 
-.setlists-buttons a {
-    color: black;
+.setlists-buttons .btn-setlist-general:hover {
+    background-color: red !important;
 }
 
 .btn-setlist {
@@ -72,16 +72,19 @@
     font-size: 1.1rem;
 }
 
-.btn-setlist:hover {
-    background-color: #fdd835;
-    color: #121212;
-    border-color:#fdd835 ;
-}
 
-.setlists-buttons .btn-setlist.active {
+.setlists-buttons .btn-setlist-general.active {
     background-color: #121212;   /* Amarillo de tu sitio */
     color: #fdd835;              /* Texto oscuro */
     border: 2px solid #fdd835;
+}
+
+
+.setlists-buttons .btn-setlist-general:hover {
+    background-color: #fdd835;
+    color: #121212;
+    border-color:#fdd835 ;
+    cursor: pointer;
 }
 
 
